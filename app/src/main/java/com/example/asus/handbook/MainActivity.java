@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
        Photo  photo = new Photo(file, ImageType.JPEG);
 
-        //vcard.addPhoto(photo);
+        vcard.addPhoto(photo);
 
         vcard.setFormattedName("Dr. Gregory House M.D.");
 
